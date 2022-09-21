@@ -12,7 +12,7 @@ import {
   MenuList,
   MenuButton,
   IconButton,
-  useColorModeValue,
+  useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
@@ -39,7 +39,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
   )
 }
 
-const Navbar = (props) => {
+const Navbar = props => {
   const { path } = props
 
   return (
@@ -77,12 +77,9 @@ const Navbar = (props) => {
           <LinkItem href="/projects" path={path}>
             Projects
           </LinkItem>
-          {/* <LinkItem href="/works" path={path}>
-            Works
+          <LinkItem href="https://blog.jiantingfeng.vip" target="_blank">
+            Blog
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
-          </LinkItem> */}
           <LinkItem
             target="_blank"
             href="https://github.com/JiantingFeng"
@@ -121,6 +118,13 @@ const Navbar = (props) => {
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink> */}
+                <MenuItem
+                  as={Link}
+                  href="https://blog.jiantingfeng.vip"
+                  target="_blank"
+                >
+                  Blog
+                </MenuItem>
                 <MenuItem as={Link} href="https://github.com/JiantingFeng">
                   GitHub
                 </MenuItem>
