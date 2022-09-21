@@ -12,7 +12,7 @@ import {
   List,
   ListItem,
   useColorModeValue,
-  chakra,
+  chakra
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -24,7 +24,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
-  shouldForwardProp: (prop) => ['width', 'height', 'src', 'alt'].includes(prop),
+  shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
 
 const Home = () => (
@@ -38,9 +38,9 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
-        textColor="red.400"
+        textColor={useColorModeValue('purple.400', 'pink.300')}
       >
-        Working on a PINN (Physical Informed Neural Network) project, contact me if interested!
+        Actively looking for RA/MPhil/PhD oppotunities!
       </Box>
 
       <Box display={{ md: 'flex' }}>

@@ -125,7 +125,11 @@ const Navbar = props => {
                 >
                   Blog
                 </MenuItem>
-                <MenuItem as={Link} href="https://github.com/JiantingFeng">
+                <MenuItem
+                  as={Link}
+                  href="https://github.com/JiantingFeng"
+                  target="_black"
+                >
                   GitHub
                 </MenuItem>
               </MenuList>
