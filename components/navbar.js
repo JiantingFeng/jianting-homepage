@@ -80,6 +80,10 @@ const Navbar = props => {
           <LinkItem href="https://blog.jiantingfeng.vip" target="_blank">
             Blog
           </LinkItem>
+          <LinkItem href="https://jianting.bio.link/" target="_black">
+            BioLink
+          </LinkItem>
+
           <LinkItem
             target="_blank"
             href="https://github.com/JiantingFeng"
@@ -124,6 +128,13 @@ const Navbar = props => {
                   target="_blank"
                 >
                   Blog
+                </MenuItem>
+                <MenuItem
+                  as={Link}
+                  href="https://jianting.bio.link/"
+                  target="_blank"
+                >
+                  BioLink
                 </MenuItem>
                 <MenuItem
                   as={Link}
