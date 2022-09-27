@@ -1507,7 +1507,7 @@ eslint-visitor-keys@^3.3.0:
   version "3.3.0"
   resolved "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz"
 
-eslint@^8.22.0:
+eslint@^8.24.0:
   version "8.24.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.24.0.tgz#489516c927a5da11b3979dbfb2679394523383c8"
   dependencies:
