@@ -786,7 +786,7 @@
   version "1.2.0"
   resolved "https://registry.npmjs.org/@emotion/sheet/-/sheet-1.2.0.tgz"
 
-"@emotion/styled@^11.10.0":
+"@emotion/styled@^11.10.4":
   version "11.10.4"
   resolved "https://registry.yarnpkg.com/@emotion/styled/-/styled-11.10.4.tgz#e93f84a4d54003c2acbde178c3f97b421fce1cd4"
   dependencies:
