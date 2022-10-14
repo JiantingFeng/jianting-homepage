@@ -123,7 +123,7 @@ const Home = () => (
           <ListItem>
             <BioYear>2022-09</BioYear>
             <Text>
-              😎 First PR to {''}
+              😎 First PR get merged {''}
               <Link
                 href="https://github.com/microsoft/LightGBM"
                 target="_blank"
