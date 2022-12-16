@@ -40,7 +40,7 @@ const Home = () => (
         css={{ backdropFilter: 'blur(10px)' }}
         textColor={useColorModeValue('purple.400', 'pink.300')}
       >
-        Actively looking for RA/MPhil/PhD oppotunities!
+        A new version of this site is in the works.
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -121,6 +121,13 @@ const Home = () => (
           News
         </Heading>
         <UnorderedList>
+          <ListItem>
+            <BioYear>2022-12</BioYear>
+            <Text>
+              🙌 I will be a Ph.D. student at the Chinese University of Hong
+              Kong next year.
+            </Text>
+          </ListItem>
           <ListItem>
             <BioYear>2022-09</BioYear>
             <Text>
