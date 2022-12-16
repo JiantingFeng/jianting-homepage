@@ -73,8 +73,8 @@ const Home = () => (
               src="/images/profile.webp"
               alt="Profile image"
               borderRadius="full"
-              width="100%"
-              height="100%"
+              width="128"
+              height="128"
             />
           </Box>
         </Box>
@@ -105,6 +105,7 @@ const Home = () => (
             passHref
             scroll={false}
             target="_blank"
+            legacyBehavior
           >
             <Button
               rightIcon={<ChevronRightIcon />}
