@@ -230,23 +230,17 @@
     compute-scroll-into-view "1.0.14"
     copy-to-clipboard "3.3.1"
 
-"@chakra-ui/icon@3.0.13":
-  version "3.0.13"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/icon/-/icon-3.0.13.tgz#1782f8bd81946eabb39d4dde9eccebba1e5571ba"
-  dependencies:
-    "@chakra-ui/shared-utils" "2.0.3"
-
 "@chakra-ui/icon@3.0.14":
   version "3.0.14"
   resolved "https://registry.yarnpkg.com/@chakra-ui/icon/-/icon-3.0.14.tgz#aca6c998f2359ce937203f7463db299a6f8947ba"
   dependencies:
     "@chakra-ui/shared-utils" "2.0.4"
 
-"@chakra-ui/icons@^2.0.14":
-  version "2.0.14"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-2.0.14.tgz#8ac5157222a62964dc7ec19bc21a26697f8320b2"
+"@chakra-ui/icons@^2.0.15":
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-2.0.15.tgz#9613eae03e08dd9622723540cd3bf582e38b1fde"
   dependencies:
-    "@chakra-ui/icon" "3.0.13"
+    "@chakra-ui/icon" "3.0.14"
 
 "@chakra-ui/image@2.0.13":
   version "2.0.13"
@@ -600,10 +594,6 @@
   dependencies:
     "@chakra-ui/form-control" "2.0.14"
     "@chakra-ui/shared-utils" "2.0.4"
-
-"@chakra-ui/shared-utils@2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/shared-utils/-/shared-utils-2.0.3.tgz#97cbc11282e381ebd9f581c603088f9d60ead451"
 
 "@chakra-ui/shared-utils@2.0.4":
   version "2.0.4"
