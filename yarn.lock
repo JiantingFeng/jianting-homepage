@@ -1733,9 +1733,9 @@ focus-lock@^0.11.2:
   dependencies:
     tslib "^2.0.3"
 
-framer-motion@^8.2.4:
-  version "8.2.4"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-8.2.4.tgz#24e99707b4d98567ce233b4f5a8894470d2da91d"
+framer-motion@^8.3.3:
+  version "8.3.3"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-8.3.3.tgz#fc380c0bb9f5999bb6fd3be48909d5c09aae5ab7"
   dependencies:
     "@motionone/dom" "^10.15.3"
     hey-listen "^1.0.8"
