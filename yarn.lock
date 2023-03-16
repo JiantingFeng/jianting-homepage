@@ -1685,9 +1685,9 @@ focus-lock@^0.11.2:
   dependencies:
     tslib "^2.0.3"
 
-framer-motion@^10.2.5:
-  version "10.2.5"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.2.5.tgz#98ea6080fc0a6a6899afa4d238c45df55be7f62f"
+framer-motion@^10.5.0:
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.5.0.tgz#0519193acdd60669ec27fde948a389d8e1f5251b"
   dependencies:
     tslib "^2.4.0"
   optionalDependencies:
