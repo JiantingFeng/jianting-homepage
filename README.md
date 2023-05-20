@@ -1,4 +1,6 @@
-# Jianting's Homepage
+# NO LONGER MAINTAINED, TURN TO JEKYLL WEBSITE INSTEAD
+
+## Jianting's Homepage
 
 Adapted from
 [https://www.craftz.dog/](https://www.craftz.dog/)
